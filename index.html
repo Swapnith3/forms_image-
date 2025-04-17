@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms_images</title>
+    <link rel="icon" type="image/png" href="../google-forms.png">
+</head>
+<body>
+    <h1>This is Forms Page</h1>
+    <form>
+        <label for="UserName">Enter Your Name</label>
+        <input type="text" name="UserName" id="UserName" maxlength="10" minlength="5" placeholder="UserName" required>
+        <br><br>
+        <label for="mail">Enter Your EMail</label>
+        <input type="email" name="mail" id="mail" placeholder="Email" autocomplete="on" required>
+        <br><br>
+        <label for="PhoneNumber">Enter Your Number</label>
+        <input type="text" value="+91"  style="width:40px;" readonly>
+        <input type="tel" name="PhoneNumber" id="PhoneNumber" placeholder="Mobile_Number" required>
+        <br><br>
+        <label for="Selfie">Capture the Selfie</label>
+        <input type="file" name="Selfie" id="Selfie" capture="user" accept="image/*" required >  
+        <br><br>
+        <input type="submit" value="submit">     
+    </form>
+</body>
+</html>
